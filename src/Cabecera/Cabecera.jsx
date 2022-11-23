@@ -4,7 +4,9 @@ import st from "./cabecera.module.css";
 function Cabecera() {
   return (
     <div className={st.contenedor}>
-      {/* <Menu/> */}
+      <div className={st.menu}>
+        <Menu />
+      </div>
       <div
         id="carouselExampleControls"
         className="carousel slide"
