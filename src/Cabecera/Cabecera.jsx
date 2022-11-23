@@ -1,5 +1,6 @@
 import Menu from "../Menu/Menu";
 import img1 from "./../assets/actividad_piloto/1.jpg";
+import img2 from "./../assets/actividad_piloto/2.jpg"
 import st from "./cabecera.module.css";
 function Cabecera() {
   return (
@@ -18,7 +19,7 @@ function Cabecera() {
           </div>
 
           <div className="carousel-item">
-            <img src={img1} className="d-block w-100" alt="..." />
+            <img src={img2} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
             <img src={img1} className="d-block w-100" alt="..." />
