@@ -1,0 +1,51 @@
+.contenedor_padre{
+    width: 100%;
+    height: 90vh;
+    border: solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.contenedor_hijo{
+    width: 80%;
+    height: 100%;
+    border: solid slateblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_hijo h2{
+    text-align: center;
+}
+
+.actividades{
+    width: 90%;
+    height: 100%;
+    border: solid crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.act1{
+    width: 33%;
+    height: 90%;
+    border: solid cornflowerblue;
+}
+
+.act2{
+    width: 40%;
+    height: 90%;
+    border: solid violet;
+}
+
+.act3{
+    width: 27%;
+    height: 90%;
+    border: solid rgb(207, 255, 84);
+
+}

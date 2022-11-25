@@ -1,0 +1,46 @@
+.contenedor {
+  width: 22rem;
+  height: 35rem;
+  border: solid seagreen;
+  background-color: #2ca58d;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.43);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: #fff;
+}
+.card {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.con_img {
+  width: 90%;
+  height: 15rem;
+  border: solid black;
+}
+.con_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.cinta {
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cinta img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}

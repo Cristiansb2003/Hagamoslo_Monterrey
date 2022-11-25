@@ -1,0 +1,46 @@
+.contenedor_padre {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor_hijo {
+    width: 80%;
+    height: 40rem;
+    display: flex;
+    border-top: solid #e9e9e9;
+    border-right: solid #e9e9e9;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.26);
+  }
+  .mision {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mision h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #3e5dac;
+  }
+  .p_mision {
+    width: 90%;
+  }
+  .mision p {
+    text-align: justify;
+  }
+  
+  .triangulo {
+    width: 50%;
+    height: 100%;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  }
+  
+  .triangulo img {
+    width: 100%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  
