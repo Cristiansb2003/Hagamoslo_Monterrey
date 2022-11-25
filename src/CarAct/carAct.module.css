@@ -1,0 +1,13 @@
+Actividad{
+    color: #fff;
+}
+.contenedor{
+    width: 100%;
+}
+.con_actividad h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

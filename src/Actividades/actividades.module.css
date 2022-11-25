@@ -5,11 +5,12 @@
     align-items: center;
     justify-content: center;
     margin: 20px 0px;
+   
 }
 
 .contenedor_hijo{
     color: black;
-    width: 95%;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -17,9 +18,10 @@
     align-items: center;
 }
 
-.contenedor_hijo h2{
+.contenedor_hijo span{
     text-align: center;
     color: black;
+    font-size: 3rem;
 }
 
 .actividades{

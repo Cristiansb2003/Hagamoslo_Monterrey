@@ -7,7 +7,7 @@ function Actividades() {
   return (
     <div className={st.contenedor_padre}>
       <div className={st.contenedor_hijo}>
-        <h2>Actividades</h2>
+        <span>Actividades</span>
         <div className={st.actividades}>
                 <Act1/>
                 <Act2/>
