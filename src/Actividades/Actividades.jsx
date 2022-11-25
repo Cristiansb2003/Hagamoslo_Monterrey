@@ -1,4 +1,6 @@
 import Act1 from "./act/Act1";
+import Act2 from "./act/Act2";
+import Act3 from "./act/Act3";
 import st from "./actividades.module.css";
 
 function Actividades() {
@@ -7,11 +9,9 @@ function Actividades() {
       <div className={st.contenedor_hijo}>
         <h2>Actividades</h2>
         <div className={st.actividades}>
-            <div className={st.act1}>
                 <Act1/>
-            </div>
-            <div className={st.act2}></div>
-            <div className={st.act3}></div>
+                <Act2/>
+                <Act3/>
         </div>
       </div>
     </div>

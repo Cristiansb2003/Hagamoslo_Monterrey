@@ -1,7 +1,7 @@
-import st from "./act1.module.css";
+import st from "./act3.module.css";
 import img1 from "./../../assets/actividad_piloto/1.jpg";
 import cinta from "./../../assets/cinta.png";
-function Act1() {
+function Act3() {
   return (
     <div className={st.contenedor_padre}>
       <div className={st.cinta}>
@@ -19,4 +19,4 @@ function Act1() {
   );
 }
 
-export default Act1;
+export default Act3;
