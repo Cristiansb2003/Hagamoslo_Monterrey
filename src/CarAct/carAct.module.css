@@ -3,7 +3,11 @@ Actividad{
 }
 .contenedor{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .con_actividad h2{
     width: 100%;
     display: flex;

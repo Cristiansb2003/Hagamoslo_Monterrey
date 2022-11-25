@@ -9,7 +9,7 @@ function CarAct() {
         className="carousel carousel-dark slide"
         data-bs-ride="carousel"
       >
-        <div className="carousel-indicators">
+        <div class="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleDark"
@@ -33,9 +33,7 @@ function CarAct() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="10000">
-            <div className={st.con_actividad}>
             <Actividades />
-            </div>
           </div>
           <div className="carousel-item" data-bs-interval="2000">
             <Actividades />
