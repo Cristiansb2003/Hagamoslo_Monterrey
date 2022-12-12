@@ -11,12 +11,10 @@ function App() {
   return (
     <div>
       <Cabecera />
-      <CarAct />
-      {/* <Act3/>
-      <Act2/> */}
-      {/* <Act1/> */}
       <Mision />
       <Vision />
+      <CarAct />
+      
     </div>
   );
 }

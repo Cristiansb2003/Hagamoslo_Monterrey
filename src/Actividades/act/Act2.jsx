@@ -8,12 +8,18 @@ function Act2() {
         <img src={cinta} alt="cinta" />
       </div>
       <div className={st.contenedor_hijo}>
-        <h2>Actividad 1</h2>
+        <div className={st.titulo}>
+          <h2>Actividad 1</h2>
+        </div>
         <div className={st.card}>
           <div className={st.con_img}>
             <img src={img1} alt="" />
           </div>
         </div>
+        <div className={`${st.act} ${st.act1}`}></div>
+        <button type="button" className={`${"btn btn-success"} ${st.boton}`}>
+          Ver Más
+        </button>
       </div>
     </div>
   );

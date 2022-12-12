@@ -14,6 +14,7 @@ function Act3() {
             <img src={img1} alt="" />
           </div>
         </div>
+        <button type="button" className="btn btn-success">Ver Más</button>
       </div>
     </div>
   );
