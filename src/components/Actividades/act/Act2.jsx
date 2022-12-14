@@ -1,6 +1,6 @@
 import st from "./act2.module.css";
-import img1 from "./../../assets/actividad_piloto/1.jpg";
-import cinta from "./../../assets/cinta.png";
+import img1 from "./../../../assets/actividad_piloto/1.jpg";
+import cinta from "./../../../assets/cinta.png";
 function Act2() {
   return (
     <div className={st.contenedor_padre}>

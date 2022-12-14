@@ -1,4 +1,4 @@
-import logoSVG from "./../assets/HM emblema.svg";
+import logoSVG from "./../../assets/HM emblema.svg";
 import st from "./menu.module.css";
 function Menu() {
   return (

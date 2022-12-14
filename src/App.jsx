@@ -1,12 +1,8 @@
-import Act1 from "./Actividades/act/Act1";
-import Act2 from "./Actividades/act/Act2";
-import Act3 from "./Actividades/act/Act3";
-import Actividades from "./Actividades/Actividades";
 import "./App.css";
-import Cabecera from "./Cabecera/Cabecera";
-import CarAct from "./CarAct/CarAct";
-import Mision from "./Mision/Mision";
-import Vision from "./Vision/Vision";
+import Cabecera from "./components/Cabecera/Cabecera";
+import CarAct from "./components/CarAct/CarAct";
+import Mision from "./components/Mision/Mision";
+import Vision from "./components/Vision/Vision";
 function App() {
   return (
     <div>

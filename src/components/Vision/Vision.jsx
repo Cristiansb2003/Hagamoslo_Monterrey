@@ -1,5 +1,5 @@
 import st from "./vision.module.css";
-import img1 from "./../assets/actividad_piloto/1.jpg";
+import img1 from "./../../assets/actividad_piloto/1.jpg";
 function Vision() {
   return (
     <div className={st.contenedor_padre}>

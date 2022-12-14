@@ -1,6 +1,6 @@
 import Menu from "../Menu/Menu";
-import img1 from "./../assets/actividad_piloto/1.jpg";
-import img2 from "./../assets/actividad_piloto/2.jpg"
+import img1 from "./../../assets/actividad_piloto/1.jpg";
+import img2 from "./../../assets/actividad_piloto/2.jpg"
 import st from "./cabecera.module.css";
 function Cabecera() {
   return (

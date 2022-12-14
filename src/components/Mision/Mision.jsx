@@ -1,5 +1,5 @@
 import st from "./mision.module.css";
-import img1 from './../assets/actividad_piloto/1.jpg';
+import img1 from './../../assets/actividad_piloto/1.jpg';
 function Mision() {
   return (
     <div className={st.contenedor_padre}>

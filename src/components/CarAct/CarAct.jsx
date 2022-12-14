@@ -1,4 +1,4 @@
-import Actividades from "../Actividades/Actividades";
+import Actividades from "./../Actividades/Actividades";
 import st from "./carAct.module.css";
 function CarAct() {
   return (
