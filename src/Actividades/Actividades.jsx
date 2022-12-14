@@ -9,9 +9,14 @@ function Actividades() {
       <div className={st.contenedor_hijo}>
         <span>Actividades</span>
         <div className={st.actividades}>
-                <Act1/>
-                <Act2/>
-                <Act3/>
+          <Act1 />
+          <Act2 />
+          <Act3 />
+        </div>
+        <div className={st.boton}>
+          <button type="button" className="btn btn-success">
+            Ver Más
+          </button>
         </div>
       </div>
     </div>

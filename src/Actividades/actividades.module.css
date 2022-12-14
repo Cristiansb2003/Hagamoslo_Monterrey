@@ -1,6 +1,6 @@
 .contenedor_padre {
   width: 100%;
-  height: 90vh;
+  height: 900px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,8 +15,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  background: rgb(207, 207, 207);
   object-fit: cover;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.43);
   border: solid 8px #bebbbb;
@@ -31,8 +29,15 @@
 
 .actividades {
   width: 95%;
-  height: 100%;
+  height: 85%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+/* boton */
+
+.boton{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
