@@ -1,16 +1,10 @@
 import "./App.css";
-import Cabecera from "./components/Cabecera/Cabecera";
-import CarAct from "./components/CarAct/CarAct";
-import Mision from "./components/Mision/Mision";
-import Vision from "./components/Vision/Vision";
+import CardAct from "./components/cardAct/CardAct";
+import Home from "./pages/home/Home";
 function App() {
   return (
     <div>
-      <Cabecera />
-      <Mision />
-      <Vision />
-      <CarAct />
-      
+      <CardAct/>    
     </div>
   );
 }
