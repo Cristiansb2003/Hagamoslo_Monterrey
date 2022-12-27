@@ -1,6 +1,7 @@
 import st from "./act1.module.css";
 import img1 from "./../../../assets/actividad_piloto/1.jpg";
 import cinta from "./../../../assets/cinta.png";
+// Este es para mostrar una actividad en forma de tarjeta en el carrucel
 function Act1() {
   return (
     <div className={st.contenedor_padre}>

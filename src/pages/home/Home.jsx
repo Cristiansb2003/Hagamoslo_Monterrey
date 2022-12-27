@@ -11,8 +11,6 @@ function Home() {
       <Mision />
       <Vision />
       <CarAct />
-      <PiePagina/>
-      <PiePagina/><PiePagina/>
     </div>
   );
 }

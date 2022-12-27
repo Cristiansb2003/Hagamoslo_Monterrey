@@ -1,10 +1,9 @@
 import "./App.css";
-import CardAct from "./components/cardAct/CardAct";
-import Home from "./pages/home/Home";
+import GalActividades from "./pages/galActividades/galActividades";
 function App() {
   return (
     <div>
-      <Home/>
+      <GalActividades/>
     </div>
   );
 }

@@ -3,6 +3,8 @@ import Act2 from "./act/Act2";
 import Act3 from "./act/Act3";
 import st from "./actividades.module.css";
 
+// Este componente es para mostrar las tres actividades en el carrucel
+
 function Actividades() {
   return (
     <div className={st.contenedor_padre}>
