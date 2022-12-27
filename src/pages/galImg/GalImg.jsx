@@ -1,7 +1,7 @@
 import st from "./galImg.module.css"
 import Imagenes from "../../assets/img/act-2022/act-piloto/images";
 // Esta es una pagina para listar todas las actividades
-function GalAct() {
+function GalImg() {
   return (
     <div className={st.contenedor}>
       <div className={st.col}>

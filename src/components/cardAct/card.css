@@ -1,0 +1,22 @@
+.green-fondo {
+  background-color: #68bd45;
+  width: 16rem;
+  height: 19rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.blue-fondo {
+  background-color: #4549bd;
+  width: 16rem;
+  height: 19rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}

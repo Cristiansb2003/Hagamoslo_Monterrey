@@ -5,11 +5,13 @@ import CardAct from "../../components/cardAct/CardAct";
 function GalActividades() {
   return (
     <div className={st.contenedor}>
-      <div className={st.col}>
+      <div className={st.padre}>
         {Act.map((img) => {
-          return (
-              <CardAct key={img.pos} imagen={img} />
-          );
+            if(img.pos%2 == 0){
+              return <CardAct color={true} key={img.pos} imagen={img} />
+            }else{
+              return <CardAct color={false} key={img.pos} imagen={img} />
+            }
         })}
       </div>
     </div>

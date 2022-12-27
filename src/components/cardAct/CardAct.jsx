@@ -1,9 +1,12 @@
 import st from "./cardAct.module.css";
+import "./card.css"
 // Esta es la card para mostrar imagen representativa de cierta actividad
 function CardAct(props) {
+  const clase = props.color ? 'green-fondo' : 'blue-fondo';
   return (
-    <div className={st.contenedor}>
-      <div className={st.padre}>
+    // {`${st.act} ${st.act1}`}
+    <div >
+      <div className={clase} >
         <div className={st.imagen}>
             <img src={props.imagen.img} alt="" />
         </div>
