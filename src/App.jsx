@@ -5,7 +5,8 @@ import GalImg from "./pages/galImg/GalImg";
 function App() {
   return (
     <div>
-      <GalActividades/>
+      <GalImg/>
+      {/* <GalActividades/> */}
     </div>
   );
 }
