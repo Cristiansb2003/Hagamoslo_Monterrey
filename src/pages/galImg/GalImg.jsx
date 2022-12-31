@@ -1,6 +1,7 @@
 import st from "./galImg.module.css";
-import "./style.css"
+import "./style.css";
 import Imagenes from "../../assets/img/act-2022/act-piloto/images";
+import close from "./../../assets/close.svg";
 import { useState } from "react";
 // Esta es una pagina para listar todas las actividades
 function GalImg() {
@@ -9,13 +10,15 @@ function GalImg() {
   const getImg = (imgSrc) => {
     setTempImgSrc(imgSrc);
     setModel(true);
-    console.log(imgSrc)
+    console.log(imgSrc);
   };
   return (
     <>
       <div className={model ? "model open" : "model"}>
         <div className="con">
-        <img src={tempImgSrc} />
+          <img src={tempImgSrc} className="p" />
+
+          <img onClick={()=>{setModel(false)}} src={close} className="close" />
         </div>
       </div>
       <div className={st.contenedor}>
