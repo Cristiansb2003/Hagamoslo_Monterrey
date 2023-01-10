@@ -1,6 +1,6 @@
 import st from "./galImg.module.css";
 import "./style.css";
-import Imagenes from "../../assets/img/act-2022/act-piloto/images";
+import Imagenes from "../../assets/img/act-2022/act-marzo/imagenes";
 import close from "./../../assets/close.svg";
 import { useState } from "react";
 // Esta es una pagina para listar todas las actividades
